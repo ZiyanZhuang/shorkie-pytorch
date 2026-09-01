@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Shorkie LM PyTorch architecture</title>
+  <desc id="desc">A 16384 base pair, 170 channel input passes through a convolutional encoder, relative-position self-attention, a U-Net decoder, and a four-base language-model head.</desc>
+  <defs>
+    <linearGradient id="dna" x1="0" x2="1"><stop stop-color="#0f766e"/><stop offset="1" stop-color="#14b8a6"/></linearGradient>
+    <linearGradient id="attn" x1="0" x2="1"><stop stop-color="#4338ca"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="out" x1="0" x2="1"><stop stop-color="#b45309"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker>
+    <style>.box{rx:16;stroke-width:2}.h{font:700 20px system-ui,sans-serif;fill:#fff}.s{font:15px system-ui,sans-serif;fill:#e2e8f0}.dark{font:700 19px system-ui,sans-serif;fill:#0f172a}.sub{font:15px system-ui,sans-serif;fill:#475569}.arrow{stroke:#64748b;stroke-width:3;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="310" rx="24" fill="#f8fafc"/>
+  <text x="600" y="38" text-anchor="middle" class="dark">Shorkie_LM — native PyTorch forward path</text>
+  <rect class="box" x="35" y="92" width="205" height="130" fill="url(#dna)" stroke="#0f766e"/>
+  <text x="137" y="129" text-anchor="middle" class="h">DNA + context</text><text x="137" y="158" text-anchor="middle" class="s">[B, 16,384, 170]</text><text x="137" y="184" text-anchor="middle" class="s">A/C/G/T · mask · species</text>
+  <line class="arrow" x1="245" y1="157" x2="292" y2="157"/>
+  <rect class="box" x="300" y="92" width="210" height="130" fill="#0f172a" stroke="#0f172a"/>
+  <text x="405" y="129" text-anchor="middle" class="h">Conv encoder</text><text x="405" y="158" text-anchor="middle" class="s">7 residual blocks</text><text x="405" y="184" text-anchor="middle" class="s">16,384 → 128 positions</text>
+  <line class="arrow" x1="515" y1="157" x2="562" y2="157"/>
+  <rect class="box" x="570" y="92" width="210" height="130" fill="url(#attn)" stroke="#4338ca"/>
+  <text x="675" y="129" text-anchor="middle" class="h">Self-attention</text><text x="675" y="158" text-anchor="middle" class="s">8 relative-position blocks</text><text x="675" y="184" text-anchor="middle" class="s">[B, 128, 384]</text>
+  <line class="arrow" x1="785" y1="157" x2="832" y2="157"/>
+  <rect class="box" x="840" y="92" width="175" height="130" fill="#334155" stroke="#334155"/>
+  <text x="927" y="129" text-anchor="middle" class="h">U-Net decoder</text><text x="927" y="158" text-anchor="middle" class="s">7 skip-connected</text><text x="927" y="184" text-anchor="middle" class="s">upsampling blocks</text>
+  <line class="arrow" x1="1020" y1="157" x2="1052" y2="157"/>
+  <rect class="box" x="1060" y="92" width="105" height="130" fill="url(#out)" stroke="#b45309"/>
+  <text x="1112" y="129" text-anchor="middle" class="h">LM head</text><text x="1112" y="158" text-anchor="middle" class="s">A C G T</text><text x="1112" y="184" text-anchor="middle" class="s">logits</text>
+  <path d="M405 225 C405 272, 927 272, 927 225" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="666" y="292" text-anchor="middle" class="sub">multi-scale skip connections preserve base-resolution information</text>
+</svg>
