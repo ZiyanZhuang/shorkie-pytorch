@@ -22,6 +22,7 @@ EXPECTED_FILES = {
     "SHA256SUMS",
     "LICENSE",
 }
+PLATFORM_FILES = {".gitattributes"}
 
 
 def sha256(path: Path) -> str:
@@ -38,7 +39,10 @@ def main() -> None:
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     root = args.model_dir.resolve()
-    observed_files = {path.name for path in root.iterdir() if path.is_file()}
+    observed_files = {
+        path.name for path in root.iterdir()
+        if path.is_file() and path.name not in PLATFORM_FILES
+    }
     if observed_files != EXPECTED_FILES:
         raise ValueError(
             f"bundle file contract mismatch: missing={sorted(EXPECTED_FILES - observed_files)}, "
