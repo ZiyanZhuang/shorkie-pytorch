@@ -1,0 +1,29 @@
+Shorkie PyTorch Reproduction
+Copyright 2026 Ziyan Zhuang
+
+Maintainer:
+  Ziyan Zhuang
+  Tianjin University
+  Shenzhen Loop Area Institute
+  ziyan@tju.edu.cn
+  https://github.com/ZiyanZhuang
+  https://huggingface.co/ZiyanZhuang
+
+This is an unofficial community PyTorch reproduction. It is not an official
+Calico Life Sciences LLC release and is not endorsed by the Shorkie authors.
+
+The architecture and training contract are derived from the Apache-2.0
+Shorkie and Baskerville-yeast projects:
+  https://github.com/calico/shorkie-paper
+
+Shorkie paper and original authors:
+  Kuan-Hao Chao, Majed M. Magzoub, Emily H. Stoops, Sean R. Hackett,
+  Johannes Linder, and David R. Kelley.
+  https://doi.org/10.1101/2025.09.19.677475
+
+The PyTorch implementation contains substantial independent translation,
+testing, packaging, and release-safety changes. Modified files are identified
+by repository history and provenance documentation.
+
+No upstream logo or trademark is included. The Shorkie name is used only to
+describe compatibility and scientific provenance.

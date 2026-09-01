@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shorkie-torch-reproduction"
+version = "0.1.0rc1"
+description = "Unofficial, source-audited PyTorch reproduction of Shorkie-LM"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Ziyan Zhuang", email = "ziyan@tju.edu.cn"}]
+keywords = ["genomics", "dna-language-model", "pytorch", "shorkie", "yeast"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = ["numpy>=1.26", "safetensors>=0.4.5", "torch>=2.6"]
+
+[project.urls]
+Homepage = "https://github.com/ZiyanZhuang/shorkie-pytorch"
+Documentation = "https://github.com/ZiyanZhuang/shorkie-pytorch#readme"
+Repository = "https://github.com/ZiyanZhuang/shorkie-pytorch"
+Issues = "https://github.com/ZiyanZhuang/shorkie-pytorch/issues"
+Weights = "https://huggingface.co/ZiyanZhuang/shorkie-lm-165-method-rebuild-v1.1"
+
+[project.optional-dependencies]
+tracking = ["swanlab>=0.6"]
+parity = ["h5py>=3.10", "tensorflow-cpu==2.15.*"]
+test = ["pytest>=8", "build>=1.2"]
+figure = ["matplotlib>=3.8"]
+
+[project.scripts]
+shorkie-torch-train = "shorkie_torch.cli.train_mlm:main"
+shorkie-torch-predict = "shorkie_torch.cli.predict_masked:main"
+shorkie-torch-ppl = "shorkie_torch.cli.evaluate_mlm:main"
+shorkie-torch-convert = "shorkie_torch.cli.convert_checkpoint:main"
+shorkie-torch-export-h5 = "shorkie_torch.cli.export_h5:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

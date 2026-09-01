@@ -1,0 +1,6 @@
+claim_id	claim	verdict	evidence	boundary
+C01	Public PyTorch model has the Shorkie_LM input/output and parameter contract	PASS_PIPELINE_ONLY	tests/test_model_contract.py; benchmarks/v0.1.0-rc1/parity_summary.json	Does not validate training data or downstream biology
+C02	Official TensorFlow and mapped PyTorch forward paths are numerically equivalent within 1e-4	PASS_PIPELINE_ONLY	benchmarks/v0.1.0-rc1/parity_summary.json	Checked official LM tensors and fixed inputs only
+C03	v1.1 D-best overall PPL is 3.621104 versus official 3.604430 on the same reconstructed plan	PASS_MODEL	benchmarks/v0.1.0-rc1/ppl_summary.json	Method-rebuild R64 valid; not original author corpus
+C04	Released safetensors is exact to the evaluated D-best checkpoint	PASS_MODEL	benchmarks/v0.1.0-rc1/release_manifest.json; release_verification.json	Optimizer and run state intentionally excluded
+C05	Paper Figures 3-7 supervised performance is reproduced	BLOCKED_DATA	docs/limitations.md	This release contains an MLM, not the 5,215-track supervised model

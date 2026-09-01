@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0-rc1",
+  "verdict": "PASS_MODEL",
+  "metric": "window_mean_source_weight_normalized_ppl",
+  "lower_is_better": true,
+  "evidence_boundary": "Method-rebuild R64 validation data; not the authors' original-corpus headline result.",
+  "contract": {
+    "name": "frozen_exact_plan_r64_valid",
+    "split": "valid",
+    "windows": 536,
+    "seed": 165,
+    "sequence_length": 16384,
+    "masked_positions_per_pass": 2457,
+    "passes_per_window": 7,
+    "rc_mode": "seeded",
+    "contract_sha256": "956e4befeee15e9d25532b929677513ea2b0a2d61018c91396ce2da55b74e8b8",
+    "sample_manifest_sha256": "712168c11f212e4f8ebd6d921cc942129f4d4a3afe8c7ed52564bfe1d91f9fa3",
+    "mask_rc_plan_sha256": "8b0c62d072dbf6a2a59fc856be11af2393ba08e545306a0e96c386492e0f5aca"
+  },
+  "models": [
+    {
+      "id": "official_shorkie_lm",
+      "label": "Official Shorkie_LM",
+      "overall_weighted_ppl": 3.60443,
+      "gene_weighted_ppl": 3.469330762,
+      "intergenic_weighted_ppl": 3.653980063
+    },
+    {
+      "id": "method_rebuild_v11_d_best",
+      "label": "v1.1 D-best method-rebuild",
+      "overall_weighted_ppl": 3.621103976380612,
+      "global_weighted_ppl": 3.6286576580337075,
+      "gene_weighted_ppl": 3.4735276667335744,
+      "intergenic_weighted_ppl": 3.6765413486533722
+    }
+  ],
+  "paired_comparison": {
+    "numerator": "method_rebuild_v11_d_best",
+    "denominator": "official_shorkie_lm",
+    "relative_ppl_gap_percent": 0.4626,
+    "block_size_bp": 65536,
+    "bootstrap_unit": "genomic_block",
+    "ppl_ratio_ci95": [1.004244, 1.005013],
+    "interpretation": "v1.1 D-best remains slightly worse than the official oracle on the same reconstructed plan."
+  },
+  "public_rerun": {
+    "status": "PASS",
+    "implementation": "Public safetensors loader with seeded RC and orientation-synchronized region masks.",
+    "overall_weighted_ppl": 3.621134363329173,
+    "frozen_value": 3.621103976380612,
+    "absolute_delta": 0.000030386948561,
+    "tolerance": {"rtol": 0.0001, "atol": 0.00001},
+    "gene_weighted_ppl": 3.4735610774943404,
+    "intergenic_weighted_ppl": 3.676570729390448,
+    "exon_weighted_ppl": 3.513289045555656,
+    "repeat_weighted_ppl": 3.102039502170281,
+    "exon_repeat_weighted_ppl": 3.0272861769829884,
+    "wall_seconds_rtx5070": 82.65194190002512,
+    "note": "Legacy frozen exon/repeat summaries were not published because their region masks were not RC-synchronized; the overall, gene, and intergenic headline values were unaffected."
+  }
+}

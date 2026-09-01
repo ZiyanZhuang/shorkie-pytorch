@@ -1,0 +1,13 @@
+include LICENSE NOTICE THIRD_PARTY_NOTICES.md CITATION.cff CONTRIBUTING.md SECURITY.md
+include README.md README.zh-CN.md
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include scripts *.py *.ps1
+recursive-include tests *.py
+recursive-include benchmarks *.json *.tsv *.py *.svg *.png
+prune audit
+prune cache
+prune dist
+prune logs
+prune outputs
+prune reports

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  This is an unofficial PyTorch reproduction. Please cite the original Shorkie
+  preprint when using the architecture or released reproduction weights.
+title: "Shorkie PyTorch Reproduction"
+version: "0.1.0-rc1"
+license: Apache-2.0
+authors:
+  - family-names: Zhuang
+    given-names: Ziyan
+    email: ziyan@tju.edu.cn
+    affiliation: "Tianjin University; Shenzhen Loop Area Institute"
+repository-code: "https://github.com/ZiyanZhuang/shorkie-pytorch"
+url: "https://github.com/ZiyanZhuang/shorkie-pytorch/releases/tag/v0.1.0-rc1"
+preferred-citation:
+  type: article
+  title: "Predicting dynamic expression patterns in budding yeast with a fungal DNA language model"
+  authors:
+    - family-names: Chao
+      given-names: Kuan-Hao
+    - family-names: Magzoub
+      given-names: Majed M.
+    - family-names: Stoops
+      given-names: Emily H.
+    - family-names: Hackett
+      given-names: Sean R.
+    - family-names: Linder
+      given-names: Johannes
+    - family-names: Kelley
+      given-names: David R.
+  journal: bioRxiv
+  year: 2025
+  doi: 10.1101/2025.09.19.677475
+  url: "https://www.biorxiv.org/content/10.1101/2025.09.19.677475v1"

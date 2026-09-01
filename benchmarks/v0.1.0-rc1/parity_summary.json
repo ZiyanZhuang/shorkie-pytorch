@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0-rc1",
+  "verdict": "PASS_PIPELINE_ONLY",
+  "purpose": "Official TensorFlow H5 to PyTorch forward-path implementation validation.",
+  "boundary": "Numerical parity is not trained-weight performance or downstream biological validation.",
+  "upstream_commit": "71bf5164c4f4448827cfc0d3b4715b736a3e6ba8",
+  "thresholds": {
+    "pearson_min": 0.99999,
+    "cosine_min": 0.99999,
+    "max_abs_target": 0.0001,
+    "max_abs_hard_limit": 0.001
+  },
+  "results": {
+    "probability_max_abs": 1.1027e-6,
+    "centered_logits_max_abs": 5.4836e-6,
+    "first_attention_max_abs": 4.0531e-6
+  }
+}
