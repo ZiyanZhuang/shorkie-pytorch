@@ -1,6 +1,6 @@
 # Shorkie PyTorch
 
-### A faithful, trainable PyTorch reproduction of the 16 kb Shorkie fungal DNA language model
+### A faithful, trainable PyTorch reproduction of the 16 kb Shorkie fungal DNA language model!
 
 [![CI](https://github.com/ZiyanZhuang/shorkie-pytorch/actions/workflows/ci.yml/badge.svg)](https://github.com/ZiyanZhuang/shorkie-pytorch/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-2563eb.svg)](LICENSE)
