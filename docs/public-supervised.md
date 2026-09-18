@@ -90,6 +90,16 @@ cross-condition metrics remain future work.
 
 ## Availability and limitations
 
+To regenerate the figures from the released summaries, install `.[figure]` and run:
+
+```bash
+python benchmarks/public-chip74-rna4-v4/plot_oof.py --output ./generated-figures
+python benchmarks/public-chip74-rna4-v4/plot_paper_reference.py --output ./generated-figures
+```
+
+The scripts also write vector PDF/SVG outputs. Paper reference numbers are
+archived panel/text transcriptions with the source distinction retained.
+
 We release code and derived evaluation summaries. Raw sequences, BigWigs,
 processed target caches, private strain data and operational logs are not part
 of this repository. Public accessibility is not a blanket redistribution grant:

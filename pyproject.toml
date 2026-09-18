@@ -34,7 +34,7 @@ supervised = ["scipy>=1.11", "h5py>=3.10"]
 tracking = ["swanlab>=0.6"]
 parity = ["h5py>=3.10", "tensorflow-cpu==2.15.*"]
 test = ["pytest>=8", "build>=1.2"]
-figure = ["matplotlib>=3.8"]
+figure = ["matplotlib>=3.8", "pandas>=2.0"]
 
 [project.scripts]
 shorkie-torch-train = "shorkie_torch.cli.train_mlm:main"
