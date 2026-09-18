@@ -52,7 +52,6 @@ PPL ratio 的 95% CI 为 1.004244-1.005013。该结果不是作者原始语料�
 
 **Ziyan Zhuang**  
 Tianjin University；Shenzhen Loop Area Institute  
-[ziyan@tju.edu.cn](mailto:ziyan@tju.edu.cn)  
 [GitHub](https://github.com/ZiyanZhuang) · [Hugging Face](https://huggingface.co/ZiyanZhuang)
 
 本项目采用 Apache-2.0 许可证。

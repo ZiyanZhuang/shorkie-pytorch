@@ -8,7 +8,6 @@ license: Apache-2.0
 authors:
   - family-names: Zhuang
     given-names: Ziyan
-    email: ziyan@tju.edu.cn
     affiliation: "Tianjin University; Shenzhen Loop Area Institute"
 repository-code: "https://github.com/ZiyanZhuang/shorkie-pytorch"
 url: "https://github.com/ZiyanZhuang/shorkie-pytorch/releases/tag/v0.1.0-rc1"

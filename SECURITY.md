@@ -1,8 +1,7 @@
 # Security policy
 
 Do not open a public issue containing credentials, private paths, unpublished
-data, or a malicious checkpoint. Contact the maintainer privately at
-`ziyan@tju.edu.cn`.
+data, or a malicious checkpoint. Use a private reporting channel available through the repository Security tab; never post sensitive details publicly.
 
 Public inference accepts only `safetensors` plus JSON configuration. The legacy
 conversion command uses `torch.load(..., weights_only=False)` because audited

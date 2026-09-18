@@ -14,5 +14,5 @@ unofficial reproduction.
 Contributions are licensed under Apache-2.0. Official TensorFlow Shorkie
 support requests belong in the official project's channels.
 
-Maintainer: Ziyan Zhuang (`ziyan@tju.edu.cn`), Tianjin University and
+Maintainer: Ziyan Zhuang, Tianjin University and
 Shenzhen Loop Area Institute.

@@ -20,7 +20,7 @@ refactored under a new package name.
 ## Public release identity
 
 This release is maintained by Ziyan Zhuang (Tianjin University and Shenzhen
-Loop Area Institute, `ziyan@tju.edu.cn`). The original Shorkie paper remains
+Loop Area Institute). The original Shorkie paper remains
 the preferred scientific citation; this repository provides an optional
 software citation for users of the PyTorch implementation or released weight.
 
