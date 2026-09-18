@@ -1,0 +1,92 @@
+[
+  {
+    "model": "fold0-pretrained",
+    "strict_load": true,
+    "parameters": 12266030,
+    "synthetic_forward_shape": [
+      1,
+      896,
+      78
+    ]
+  },
+  {
+    "model": "fold0-scratch",
+    "strict_load": true,
+    "parameters": 12090734,
+    "synthetic_forward_shape": [
+      1,
+      896,
+      78
+    ]
+  },
+  {
+    "model": "fold1-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold1-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  },
+  {
+    "model": "fold2-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold2-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  },
+  {
+    "model": "fold3-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold3-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  },
+  {
+    "model": "fold4-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold4-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  },
+  {
+    "model": "fold5-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold5-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  },
+  {
+    "model": "fold6-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold6-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  },
+  {
+    "model": "fold7-pretrained",
+    "strict_load": true,
+    "parameters": 12266030
+  },
+  {
+    "model": "fold7-scratch",
+    "strict_load": true,
+    "parameters": 12090734
+  }
+]

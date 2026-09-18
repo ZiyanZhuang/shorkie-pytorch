@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "tracks": [
+    {
+      "index": 0,
+      "modality": "ChIP",
+      "accession": "GSM4449152",
+      "description": "14859_Abd1_rep1_ChIP-exo",
+      "source_filename": "GSM4449152_14859_Abd1_rep1.bw",
+      "sha256": "f1d6375a1793ef8a0b8e590a2f8ae873b3f5a444dc5a2cceb7146603038efed8",
+      "rc_partner_index": 0,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449152"
+    },
+    {
+      "index": 1,
+      "modality": "ChIP",
+      "accession": "GSM4449158",
+      "description": "14640_Acs1_rep1_ChIP-exo",
+      "source_filename": "GSM4449158_14640_Acs1_rep1.bw",
+      "sha256": "2fafc9992b238a1756ba98aa4adae69007e85705c64612dc0c65f58faf21ce3e",
+      "rc_partner_index": 1,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449158"
+    },
+    {
+      "index": 2,
+      "modality": "ChIP",
+      "accession": "GSM4449166",
+      "description": "14778_Adk1_rep1_ChIP-exo",
+      "source_filename": "GSM4449166_14778_Adk1_rep1.bw",
+      "sha256": "3abc808e978784ce0907c579b91a9978af909ecfa69b985df84fb34b3c5ce251",
+      "rc_partner_index": 2,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449166"
+    },
+    {
+      "index": 3,
+      "modality": "ChIP",
+      "accession": "GSM4449167",
+      "description": "14405_Ado1_rep1_ChIP-exo",
+      "source_filename": "GSM4449167_14405_Ado1_rep1.bw",
+      "sha256": "30708ef199a85e229aeb5b0fee384c53240001191da8fa9aa95d0ad4ae0aadba",
+      "rc_partner_index": 3,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449167"
+    },
+    {
+      "index": 4,
+      "modality": "ChIP",
+      "accession": "GSM4449176",
+      "description": "12040_Apc9_rep1_ChIP-exo",
+      "source_filename": "GSM4449176_12040_Apc9_rep1.bw",
+      "sha256": "90f8aab223208fbc807b3382ac8e2bc92e7baa5d5da8f01032238fc3f05ef769",
+      "rc_partner_index": 4,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449176"
+    },
+    {
+      "index": 5,
+      "modality": "ChIP",
+      "accession": "GSM4449177",
+      "description": "14478_Apt1_rep1_ChIP-exo",
+      "source_filename": "GSM4449177_14478_Apt1_rep1.bw",
+      "sha256": "ec7de1870f53542b0c3f3e1bf9fab9bcf82633328f51c37bf1e141d0c09bfe60",
+      "rc_partner_index": 5,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449177"
+    },
+    {
+      "index": 6,
+      "modality": "ChIP",
+      "accession": "GSM4449178",
+      "description": "14851_Arg80_rep1_ChIP-exo",
+      "source_filename": "GSM4449178_14851_Arg80_rep1.bw",
+      "sha256": "76530266f6ae847532fb12ff1114d1b692876cd61f75d0e8d139a875759f2c27",
+      "rc_partner_index": 6,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449178"
+    },
+    {
+      "index": 7,
+      "modality": "ChIP",
+      "accession": "GSM4449193",
+      "description": "14374_ARP9_rep1_ChIP-exo",
+      "source_filename": "GSM4449193_14374_ARP9_rep1.bw",
+      "sha256": "dee0cbf4bf044ce2c96b009e42fd39c5389faf8a8f8fbb1330dd047ff00e397d",
+      "rc_partner_index": 7,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449193"
+    },
+    {
+      "index": 8,
+      "modality": "ChIP",
+      "accession": "GSM4449207",
+      "description": "13440_Bat2_rep1_ChIP-exo",
+      "source_filename": "GSM4449207_13440_Bat2_rep1.bw",
+      "sha256": "cd6aae48a7d4fe21eb8d86af0e0289204d18f29e9d52dc5b37287889d1da6d61",
+      "rc_partner_index": 8,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449207"
+    },
+    {
+      "index": 9,
+      "modality": "ChIP",
+      "accession": "GSM4449222",
+      "description": "14798_Bre2_rep1_ChIP-exo",
+      "source_filename": "GSM4449222_14798_Bre2_rep1.bw",
+      "sha256": "485fa55a0dda27b4e2cd38615403a4fe28ab6f612c7193766cb41c81d357024e",
+      "rc_partner_index": 9,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449222"
+    },
+    {
+      "index": 10,
+      "modality": "ChIP",
+      "accession": "GSM4449229",
+      "description": "13462_Bud20_rep1_ChIP-exo",
+      "source_filename": "GSM4449229_13462_Bud20_rep1.bw",
+      "sha256": "3632e44a4f0da981f714095c0a2a837ac7626143eff7d70cca9b3c9e41aba16a",
+      "rc_partner_index": 10,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449229"
+    },
+    {
+      "index": 11,
+      "modality": "ChIP",
+      "accession": "GSM4449231",
+      "description": "14493_Bud32_rep1_ChIP-exo",
+      "source_filename": "GSM4449231_14493_Bud32_rep1.bw",
+      "sha256": "737e338675d587f229f0d3fdd1f14126f3848315175340ef829f10b254874456",
+      "rc_partner_index": 11,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449231"
+    },
+    {
+      "index": 12,
+      "modality": "ChIP",
+      "accession": "GSM4449243",
+      "description": "17598_Caf120_rep1_ChIP-exo",
+      "source_filename": "GSM4449243_17598_Caf120_rep1.bw",
+      "sha256": "0e63efa48c0f81eac937d8ff4c25aaddd1dda82feb3f538ff17dd85b0ed5e581",
+      "rc_partner_index": 12,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449243"
+    },
+    {
+      "index": 13,
+      "modality": "ChIP",
+      "accession": "GSM4449262",
+      "description": "13480_Cdc33_rep1_ChIP-exo",
+      "source_filename": "GSM4449262_13480_Cdc33_rep1.bw",
+      "sha256": "3d1711a2def1ff005708e58bd074dfc82980e7317de60c79f82ea91f15e5fbbd",
+      "rc_partner_index": 13,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449262"
+    },
+    {
+      "index": 14,
+      "modality": "ChIP",
+      "accession": "GSM4449268",
+      "description": "13456_Cdc48_rep1_ChIP-exo",
+      "source_filename": "GSM4449268_13456_Cdc48_rep1.bw",
+      "sha256": "5e970ba730de462276c8f9dde7416dd68369f2a76b9303731214a8841ef51c00",
+      "rc_partner_index": 14,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449268"
+    },
+    {
+      "index": 15,
+      "modality": "ChIP",
+      "accession": "GSM4449271",
+      "description": "14403_Cdd1_rep1_ChIP-exo",
+      "source_filename": "GSM4449271_14403_Cdd1_rep1.bw",
+      "sha256": "bd0fe57af3bc962048fe4a92016de060d9b0a321ecfe376278e92aa8f42814ce",
+      "rc_partner_index": 15,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449271"
+    },
+    {
+      "index": 16,
+      "modality": "ChIP",
+      "accession": "GSM4449331",
+      "description": "14484_Dcc1_rep1_ChIP-exo",
+      "source_filename": "GSM4449331_14484_Dcc1_rep1.bw",
+      "sha256": "cbb52917b019faf488ae7c1daf95cfd18b9184417ed52caf8fd9e1706abc7c4f",
+      "rc_partner_index": 16,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449331"
+    },
+    {
+      "index": 17,
+      "modality": "ChIP",
+      "accession": "GSM4449345",
+      "description": "14391_Dus1_rep1_ChIP-exo",
+      "source_filename": "GSM4449345_14391_Dus1_rep1.bw",
+      "sha256": "c67dfdbd238b8b9981967c160ff0da2b01353f3cf7af797644af6b6313e1495a",
+      "rc_partner_index": 17,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449345"
+    },
+    {
+      "index": 18,
+      "modality": "ChIP",
+      "accession": "GSM4449352",
+      "description": "14368_Ecm15_rep1_ChIP-exo",
+      "source_filename": "GSM4449352_14368_Ecm15_rep1.bw",
+      "sha256": "5f3ba7db8d396e5dc0bbf3b05fd8272411b9fa9c9a4c6ee05508c687deab6504",
+      "rc_partner_index": 18,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449352"
+    },
+    {
+      "index": 19,
+      "modality": "ChIP",
+      "accession": "GSM4449364",
+      "description": "15479_Elp3_rep1_ChIP-exo",
+      "source_filename": "GSM4449364_15479_Elp3_rep1.bw",
+      "sha256": "d80c802adf4ee7800be83b254d45d8b651fbb656028e418b90fe8632fb9a60ed",
+      "rc_partner_index": 19,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449364"
+    },
+    {
+      "index": 20,
+      "modality": "ChIP",
+      "accession": "GSM4449368",
+      "description": "14385_Erg8_rep1_ChIP-exo",
+      "source_filename": "GSM4449368_14385_Erg8_rep1.bw",
+      "sha256": "c7797ee2192957e84eec3211188741bd44e3a13beb24624b0a74c0a3cb1ccd49",
+      "rc_partner_index": 20,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449368"
+    },
+    {
+      "index": 21,
+      "modality": "ChIP",
+      "accession": "GSM4449373",
+      "description": "14392_Esc8_rep1_ChIP-exo",
+      "source_filename": "GSM4449373_14392_Esc8_rep1.bw",
+      "sha256": "1ddcb1f7e609bb6c5b56115f759a66bf779a336d7d7748147ce78ab0248fff1b",
+      "rc_partner_index": 21,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449373"
+    },
+    {
+      "index": 22,
+      "modality": "ChIP",
+      "accession": "GSM4449376",
+      "description": "14383_Fap1_rep1_ChIP-exo",
+      "source_filename": "GSM4449376_14383_Fap1_rep1.bw",
+      "sha256": "4bcff72dde349106b94167e7b2b5fa81abb1dc0184b59ec34a9723d602ad5d52",
+      "rc_partner_index": 22,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449376"
+    },
+    {
+      "index": 23,
+      "modality": "ChIP",
+      "accession": "GSM4449388",
+      "description": "13452_Fsh1_rep1_ChIP-exo",
+      "source_filename": "GSM4449388_13452_Fsh1_rep1.bw",
+      "sha256": "ca8636e95dd9a84be79671cacca0448e277236a8dddb65ac277dd82775d88033",
+      "rc_partner_index": 23,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449388"
+    },
+    {
+      "index": 24,
+      "modality": "ChIP",
+      "accession": "GSM4449399",
+      "description": "14366_Gal83_rep1_ChIP-exo",
+      "source_filename": "GSM4449399_14366_Gal83_rep1.bw",
+      "sha256": "afb6f0ab566a63d035898604bb2ba07d93e9b429f6fdcd70f1e7514679b8e4f1",
+      "rc_partner_index": 24,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449399"
+    },
+    {
+      "index": 25,
+      "modality": "ChIP",
+      "accession": "GSM4449412",
+      "description": "14460_Glc7_rep1_ChIP-exo",
+      "source_filename": "GSM4449412_14460_Glc7_rep1.bw",
+      "sha256": "b8d55b6ae721612efbf3265d22449e38334e21acec964306b817afa02945d5a8",
+      "rc_partner_index": 25,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449412"
+    },
+    {
+      "index": 26,
+      "modality": "ChIP",
+      "accession": "GSM4449420",
+      "description": "14786_Gre2_rep1_ChIP-exo",
+      "source_filename": "GSM4449420_14786_Gre2_rep1.bw",
+      "sha256": "e0af21c321b519bb378ebffc84d9b027c2e885c48fb70852b89c233579b97808",
+      "rc_partner_index": 26,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449420"
+    },
+    {
+      "index": 27,
+      "modality": "ChIP",
+      "accession": "GSM4449421",
+      "description": "14479_Gre3_rep1_ChIP-exo",
+      "source_filename": "GSM4449421_14479_Gre3_rep1.bw",
+      "sha256": "6eb95a2cf9d0b7f4f18b13b0022c42e57080eb1a7fcc819725b28a4124e48210",
+      "rc_partner_index": 27,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449421"
+    },
+    {
+      "index": 28,
+      "modality": "ChIP",
+      "accession": "GSM4449423",
+      "description": "14352_Grx3_rep1_ChIP-exo",
+      "source_filename": "GSM4449423_14352_Grx3_rep1.bw",
+      "sha256": "fa5a805664a04a92dcb741c0f0595319855c2cb8cf90dab3b882cd248fc11751",
+      "rc_partner_index": 28,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449423"
+    },
+    {
+      "index": 29,
+      "modality": "ChIP",
+      "accession": "GSM4449424",
+      "description": "13466_Grx4_rep1_ChIP-exo",
+      "source_filename": "GSM4449424_13466_Grx4_rep1.bw",
+      "sha256": "749a478f6abbbeb0ea86413db5f169296b45d4e17e850cd78f82841c527c7eb7",
+      "rc_partner_index": 29,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449424"
+    },
+    {
+      "index": 30,
+      "modality": "ChIP",
+      "accession": "GSM4449445",
+      "description": "13888_H3K79me3_rep1_MNase-ChIP-seq",
+      "source_filename": "GSM4449445_13888_H3K79me3_rep1.bw",
+      "sha256": "9b30eacae9e85d045f1d3852b8326696a673bd23f7dce5005b88947035f1ec64",
+      "rc_partner_index": 30,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449445"
+    },
+    {
+      "index": 31,
+      "modality": "ChIP",
+      "accession": "GSM4449446",
+      "description": "13897_H3K79me3_rep2_MNase-ChIP-seq",
+      "source_filename": "GSM4449446_13897_H3K79me3_rep2.bw",
+      "sha256": "7e6423b4edfe4442eea4ee78ad0c4128b1991c0c5641238689d737261cb90475",
+      "rc_partner_index": 31,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449446"
+    },
+    {
+      "index": 32,
+      "modality": "ChIP",
+      "accession": "GSM4449488",
+      "description": "14865_Hmlalpha2_rep1_ChIP-exo",
+      "source_filename": "GSM4449488_14865_Hmlalpha2_rep1.bw",
+      "sha256": "f13f2118d1f68e6b6e76647d1ce19ea6f7c921da51f0c87bf382f419e3459a52",
+      "rc_partner_index": 32,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449488"
+    },
+    {
+      "index": 33,
+      "modality": "ChIP",
+      "accession": "GSM4449497",
+      "description": "14781_Hor2_rep1_ChIP-exo",
+      "source_filename": "GSM4449497_14781_Hor2_rep1.bw",
+      "sha256": "5eebdf782fb2e20c506a66325f39a5e72dab34c39b8db77dd5daf59daa85954a",
+      "rc_partner_index": 33,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449497"
+    },
+    {
+      "index": 34,
+      "modality": "ChIP",
+      "accession": "GSM4449523",
+      "description": "14467_Hst2_rep1_ChIP-exo",
+      "source_filename": "GSM4449523_14467_Hst2_rep1.bw",
+      "sha256": "816c40decc281cbcbb1086ff8975faca1f306d27ad6908026f785d73a20eda2a",
+      "rc_partner_index": 34,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449523"
+    },
+    {
+      "index": 35,
+      "modality": "ChIP",
+      "accession": "GSM4449526",
+      "description": "11819_Hst4_rep1_ChIP-exo",
+      "source_filename": "GSM4449526_11819_Hst4_rep1.bw",
+      "sha256": "a5373c0dd22d40902cfbcf23e41f3b426889e22b55746ce777c4ca9c502e4bed",
+      "rc_partner_index": 35,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449526"
+    },
+    {
+      "index": 36,
+      "modality": "ChIP",
+      "accession": "GSM4449537",
+      "description": "14399_Ids2_rep1_ChIP-exo",
+      "source_filename": "GSM4449537_14399_Ids2_rep1.bw",
+      "sha256": "e0676125f4a894e7f8725f6bc2c3f55c61ba6c06c2cb665a221f97e682e612ac",
+      "rc_partner_index": 36,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449537"
+    },
+    {
+      "index": 37,
+      "modality": "ChIP",
+      "accession": "GSM4449574",
+      "description": "13465_Kap95_rep1_ChIP-exo",
+      "source_filename": "GSM4449574_13465_Kap95_rep1.bw",
+      "sha256": "61033d95b7ad6ce684056dc4625817a712d6398b4c3ec5d98e03eaaf158e39bd",
+      "rc_partner_index": 37,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449574"
+    },
+    {
+      "index": 38,
+      "modality": "ChIP",
+      "accession": "GSM4449589",
+      "description": "13464_Lot5_rep1_ChIP-exo",
+      "source_filename": "GSM4449589_13464_Lot5_rep1.bw",
+      "sha256": "18e13ca0b94bd14ecd597fd350531c8509caa19efdc03d44dd006fce56f1ddf1",
+      "rc_partner_index": 38,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449589"
+    },
+    {
+      "index": 39,
+      "modality": "ChIP",
+      "accession": "GSM4449649",
+      "description": "14382_Mor1_rep1_ChIP-exo",
+      "source_filename": "GSM4449649_14382_Mor1_rep1.bw",
+      "sha256": "4f07c16088d8762afd656d01b410246aacee0cb3dee45a03a8caacc5ee5f5f01",
+      "rc_partner_index": 39,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449649"
+    },
+    {
+      "index": 40,
+      "modality": "ChIP",
+      "accession": "GSM4449655",
+      "description": "14772_Mre11_rep1_ChIP-exo",
+      "source_filename": "GSM4449655_14772_Mre11_rep1.bw",
+      "sha256": "1541d0f715f71c71fd30136facdd202cab3edc824c2f1571a5440037d19ab0f2",
+      "rc_partner_index": 40,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449655"
+    },
+    {
+      "index": 41,
+      "modality": "ChIP",
+      "accession": "GSM4449667",
+      "description": "14384_Mxr1_rep1_ChIP-exo",
+      "source_filename": "GSM4449667_14384_Mxr1_rep1.bw",
+      "sha256": "c2df33652c8d0d058721f7e471c7e6f87333480f60c9e2860e307660d8fa0668",
+      "rc_partner_index": 41,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449667"
+    },
+    {
+      "index": 42,
+      "modality": "ChIP",
+      "accession": "GSM4449687",
+      "description": "14468_Nic96_rep1_ChIP-exo",
+      "source_filename": "GSM4449687_14468_Nic96_rep1.bw",
+      "sha256": "6ac91092cf0ce8145dc328a8e49109d9898c444c33cf459c09151724513b26d0",
+      "rc_partner_index": 42,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449687"
+    },
+    {
+      "index": 43,
+      "modality": "ChIP",
+      "accession": "GSM4449714",
+      "description": "17779_Nto1_rep1_ChIP-exo",
+      "source_filename": "GSM4449714_17779_Nto1_rep1.bw",
+      "sha256": "05ae31e19b49030c9e3aa563c531bd4433d5b6869243b371517fe749b03b2b66",
+      "rc_partner_index": 43,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449714"
+    },
+    {
+      "index": 44,
+      "modality": "ChIP",
+      "accession": "GSM4449720",
+      "description": "14404_Oaf1_rep1_ChIP-exo",
+      "source_filename": "GSM4449720_14404_Oaf1_rep1.bw",
+      "sha256": "35ad325a4e32037d0e901f8dda5d22dfca553cab55411392037f59bf58605673",
+      "rc_partner_index": 44,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449720"
+    },
+    {
+      "index": 45,
+      "modality": "ChIP",
+      "accession": "GSM4449734",
+      "description": "17928_Pab1_rep1_ChIP-exo",
+      "source_filename": "GSM4449734_17928_Pab1_rep1.bw",
+      "sha256": "a2b919a357cb101e7e9397b421268414bd8280f46ff6c1d66aa2b83248b99e0e",
+      "rc_partner_index": 45,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449734"
+    },
+    {
+      "index": 46,
+      "modality": "ChIP",
+      "accession": "GSM4449764",
+      "description": "14186_Plp2_rep1_ChIP-exo",
+      "source_filename": "GSM4449764_14186_Plp2_rep1.bw",
+      "sha256": "90b494ba68c522fb2065636dd417c4d002d96a1c6b711aec890c4eb2613f1f65",
+      "rc_partner_index": 46,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449764"
+    },
+    {
+      "index": 47,
+      "modality": "ChIP",
+      "accession": "GSM4449797",
+      "description": "14388_Rad2_rep1_ChIP-exo",
+      "source_filename": "GSM4449797_14388_Rad2_rep1.bw",
+      "sha256": "d9fe52f5d55ec35c0d2e529ef662fff101737de8d4986ef3eb3435b1992bbef8",
+      "rc_partner_index": 47,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449797"
+    },
+    {
+      "index": 48,
+      "modality": "ChIP",
+      "accession": "GSM4449803",
+      "description": "13461_Rad52_rep1_ChIP-exo",
+      "source_filename": "GSM4449803_13461_Rad52_rep1.bw",
+      "sha256": "8c92090fc847ee89521f6da60555951d9f2693e38fce9c5e94017fe4b5e7f0b0",
+      "rc_partner_index": 48,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449803"
+    },
+    {
+      "index": 49,
+      "modality": "ChIP",
+      "accession": "GSM4449806",
+      "description": "14787_Rad57_rep1_ChIP-exo",
+      "source_filename": "GSM4449806_14787_Rad57_rep1.bw",
+      "sha256": "3afc510ed1dc139ae4e0611d3c5d69ec2815bb8b9cedcb070ef1c0117489efc6",
+      "rc_partner_index": 49,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449806"
+    },
+    {
+      "index": 50,
+      "modality": "ChIP",
+      "accession": "GSM4449811",
+      "description": "17962_Rai1_rep1_ChIP-exo",
+      "source_filename": "GSM4449811_17962_Rai1_rep1.bw",
+      "sha256": "d5802801b0128f8dcb8f5e17459d0e2143c3b3fa34f5e02349f09e0f1d7e4da1",
+      "rc_partner_index": 50,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449811"
+    },
+    {
+      "index": 51,
+      "modality": "ChIP",
+      "accession": "GSM4449815",
+      "description": "16230_Rat1_rep1_ChIP-exo",
+      "source_filename": "GSM4449815_16230_Rat1_rep1.bw",
+      "sha256": "eda717d4d615b8234651067928d8e6f1a17dda3fbbec2a885c331202a52f30d9",
+      "rc_partner_index": 51,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449815"
+    },
+    {
+      "index": 52,
+      "modality": "ChIP",
+      "accession": "GSM4449844",
+      "description": "14375_Rib4_rep1_ChIP-exo",
+      "source_filename": "GSM4449844_14375_Rib4_rep1.bw",
+      "sha256": "d504fac09b339a6bdb41a8c6fc48298bc779c4f0d8202e418c7c4325ff6d87a9",
+      "rc_partner_index": 52,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449844"
+    },
+    {
+      "index": 53,
+      "modality": "ChIP",
+      "accession": "GSM4449858",
+      "description": "14381_Rmt2_rep1_ChIP-exo",
+      "source_filename": "GSM4449858_14381_Rmt2_rep1.bw",
+      "sha256": "584824a752d56e333a9fe26ee59ffd311f138cdaff118ed25990e2fd9fba2163",
+      "rc_partner_index": 53,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449858"
+    },
+    {
+      "index": 54,
+      "modality": "ChIP",
+      "accession": "GSM4449936",
+      "description": "17957_Rsc2_rep1_ChIP-exo",
+      "source_filename": "GSM4449936_17957_Rsc2_rep1.bw",
+      "sha256": "c86aab4f42384b326b7a9aa7fba00e210be65086f67b459b34b1e87722f86144",
+      "rc_partner_index": 54,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449936"
+    },
+    {
+      "index": 55,
+      "modality": "ChIP",
+      "accession": "GSM4449989",
+      "description": "13479_Sch9_rep1_ChIP-exo",
+      "source_filename": "GSM4449989_13479_Sch9_rep1.bw",
+      "sha256": "cf56f29038098d7a9201565d98391fe4e5fc5fd935087c3111bb84c18544b657",
+      "rc_partner_index": 55,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4449989"
+    },
+    {
+      "index": 56,
+      "modality": "ChIP",
+      "accession": "GSM4450020",
+      "description": "14491_Sgi1_rep1_ChIP-exo",
+      "source_filename": "GSM4450020_14491_Sgi1_rep1.bw",
+      "sha256": "7e51b7ecc4d9fe5496d854ec8d2c558297884b7b9f4302c53592a6becc6c1173",
+      "rc_partner_index": 56,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450020"
+    },
+    {
+      "index": 57,
+      "modality": "ChIP",
+      "accession": "GSM4450046",
+      "description": "14389_Slt2_rep1_ChIP-exo",
+      "source_filename": "GSM4450046_14389_Slt2_rep1.bw",
+      "sha256": "1c1ebb6880254ac07b55879b2de505a2dc3852948e3dea2dd8df79f77b9a6acb",
+      "rc_partner_index": 57,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450046"
+    },
+    {
+      "index": 58,
+      "modality": "ChIP",
+      "accession": "GSM4450142",
+      "description": "14394_Std1_rep1_ChIP-exo",
+      "source_filename": "GSM4450142_14394_Std1_rep1.bw",
+      "sha256": "9b2330faf22c70c9ba863cde33ad2a2f0683d607a354abc9a7195d25e97ab80e",
+      "rc_partner_index": 58,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450142"
+    },
+    {
+      "index": 59,
+      "modality": "ChIP",
+      "accession": "GSM4450192",
+      "description": "12856_Taf11_rep1_ChIP-exo",
+      "source_filename": "GSM4450192_12856_Taf11_rep1.bw",
+      "sha256": "6dff9c5dcdcb00fd5241472a128b45de4594f2f636981dc9d77393d86dee4f39",
+      "rc_partner_index": 59,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450192"
+    },
+    {
+      "index": 60,
+      "modality": "ChIP",
+      "accession": "GSM4450265",
+      "description": "11984_Thp1_rep1_ChIP-exo",
+      "source_filename": "GSM4450265_11984_Thp1_rep1.bw",
+      "sha256": "3227b1948a5f90f737869bdb632687d62749e2f8c00a31c2a274f73a341f155f",
+      "rc_partner_index": 60,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450265"
+    },
+    {
+      "index": 61,
+      "modality": "ChIP",
+      "accession": "GSM4450269",
+      "description": "14466_Tip41_rep1_ChIP-exo",
+      "source_filename": "GSM4450269_14466_Tip41_rep1.bw",
+      "sha256": "5905ba388ff88f6075dc942655febe0b0b079b743d97eb7ae7280e4be96b8eb7",
+      "rc_partner_index": 61,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450269"
+    },
+    {
+      "index": 62,
+      "modality": "ChIP",
+      "accession": "GSM4450318",
+      "description": "17943_Utp4_rep1_ChIP-exo",
+      "source_filename": "GSM4450318_17943_Utp4_rep1.bw",
+      "sha256": "323483534d2eb2f3dbbb7a6ef77989e5e99bc54a620c4d476547b9fdf188f687",
+      "rc_partner_index": 62,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450318"
+    },
+    {
+      "index": 63,
+      "modality": "ChIP",
+      "accession": "GSM4450353",
+      "description": "14189_Yhm2_rep1_ChIP-exo",
+      "source_filename": "GSM4450353_14189_Yhm2_rep1.bw",
+      "sha256": "b7a416582dbeb8bb453ce372889a34d6853b7f022db2b59234876607c92a4f7e",
+      "rc_partner_index": 63,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450353"
+    },
+    {
+      "index": 64,
+      "modality": "ChIP",
+      "accession": "GSM4450366",
+      "description": "13454_Ypr1_rep1_ChIP-exo",
+      "source_filename": "GSM4450366_13454_Ypr1_rep1.bw",
+      "sha256": "651847300d66843dd068ae5a0a66ca870badb12ce82de590475b8e6f75761f69",
+      "rc_partner_index": 64,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450366"
+    },
+    {
+      "index": 65,
+      "modality": "ChIP",
+      "accession": "GSM4450367",
+      "description": "14857_Yra1_rep1_ChIP-exo",
+      "source_filename": "GSM4450367_14857_Yra1_rep1.bw",
+      "sha256": "d6862d0343f03017fe8bad5b7b1e86faa51d887a30affdbedb065571eccf7837",
+      "rc_partner_index": 65,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450367"
+    },
+    {
+      "index": 66,
+      "modality": "ChIP",
+      "accession": "GSM4450371",
+      "description": "14400_Ysa1_rep1_ChIP-exo",
+      "source_filename": "GSM4450371_14400_Ysa1_rep1.bw",
+      "sha256": "fd16951a37775c8e1b17153ad45532653cd26cb143985f44f36830db69ac55c0",
+      "rc_partner_index": 66,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450371"
+    },
+    {
+      "index": 67,
+      "modality": "ChIP",
+      "accession": "GSM4450379",
+      "description": "14846_Mks1_rep1_ChIP-exo",
+      "source_filename": "GSM4450379_14846_Mks1_rep1.bw",
+      "sha256": "f59b36222e8361e955edb2cdd86c5e2e7528e5fba72e066b7f9ef2ca03c74f40",
+      "rc_partner_index": 67,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450379"
+    },
+    {
+      "index": 68,
+      "modality": "ChIP",
+      "accession": "GSM4450380",
+      "description": "14413_Pta1_rep1_ChIP-exo",
+      "source_filename": "GSM4450380_14413_Pta1_rep1.bw",
+      "sha256": "c9e7277bb894d805180fd9b2934908a09fe325fb540f8061634a5fdf8147dd68",
+      "rc_partner_index": 68,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450380"
+    },
+    {
+      "index": 69,
+      "modality": "ChIP",
+      "accession": "GSM4450381",
+      "description": "14380_Trm5_rep1_ChIP-exo",
+      "source_filename": "GSM4450381_14380_Trm5_rep1.bw",
+      "sha256": "dc10f2bf8eb6de767bdebaa0aed1d0d4eb5925829c8e200644594476dcd4a032",
+      "rc_partner_index": 69,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450381"
+    },
+    {
+      "index": 70,
+      "modality": "ChIP",
+      "accession": "GSM4450382",
+      "description": "17586_Spo7_rep1_ChIP-exo",
+      "source_filename": "GSM4450382_17586_Spo7_rep1.bw",
+      "sha256": "a56cdfee8d0c96bb4b5a13b3b5c334afd161109d6b0f5488cfcefe24f8a5ea00",
+      "rc_partner_index": 70,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450382"
+    },
+    {
+      "index": 71,
+      "modality": "ChIP",
+      "accession": "GSM4450383",
+      "description": "12031_Rtf1_rep1_ChIP-exo",
+      "source_filename": "GSM4450383_12031_Rtf1_rep1.bw",
+      "sha256": "82c551f476bafde65e0f84d4f90635b49b767c0f4245eef951730f535ffea970",
+      "rc_partner_index": 71,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450383"
+    },
+    {
+      "index": 72,
+      "modality": "ChIP",
+      "accession": "GSM4450384",
+      "description": "14410_Rpb10_rep1_ChIP-exo",
+      "source_filename": "GSM4450384_14410_Rpb10_rep1.bw",
+      "sha256": "f79f57ce5f71e703097f0665afade769eb20e550ee1c4544873a6cc0531887d5",
+      "rc_partner_index": 72,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450384"
+    },
+    {
+      "index": 73,
+      "modality": "ChIP",
+      "accession": "GSM4450385",
+      "description": "14412_Rei1_rep1_ChIP-exo",
+      "source_filename": "GSM4450385_14412_Rei1_rep1.bw",
+      "sha256": "b2179289682abf6f69d84f65b4fb7b216a3b59a873540d394ca77622a36fa252",
+      "rc_partner_index": 73,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4450385"
+    },
+    {
+      "index": 74,
+      "modality": "RNA",
+      "accession": "GSM6542466",
+      "description": "4SU_6min_nascent_polyA_RNA_published_5prime_tag",
+      "source_filename": "GSM6542466_24742_polyA-RNA_-_BY4741_-_YPD_MHS_-4-SU-treatment_RS_FilteredBAM_read1.forward.bw",
+      "sha256": "8c618c731d98e621cfc5737b4c167f73fbfaad8d59ba4d2cdbfe2d52256d83ad",
+      "rc_partner_index": 75,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6542466",
+      "temperature_C": 25,
+      "genotype": "WT_BY4741",
+      "published_alignment_strand": "forward",
+      "sparse_policy": "On 16 verified nuclear contigs, absent BigWig intervals represent zero tag coverage; non-ACGT genome/gaps and excluded chromosomes remain masked. Explicit adaptation."
+    },
+    {
+      "index": 75,
+      "modality": "RNA",
+      "accession": "GSM6542466",
+      "description": "4SU_6min_nascent_polyA_RNA_published_5prime_tag",
+      "source_filename": "GSM6542466_24742_polyA-RNA_-_BY4741_-_YPD_MHS_-4-SU-treatment_RS_FilteredBAM_read1.reverse.bw",
+      "sha256": "676eac8b20d9b042c277515f3ed708cae58548cf58a1d2b527c9d58064810c04",
+      "rc_partner_index": 74,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6542466",
+      "temperature_C": 25,
+      "genotype": "WT_BY4741",
+      "published_alignment_strand": "reverse",
+      "sparse_policy": "On 16 verified nuclear contigs, absent BigWig intervals represent zero tag coverage; non-ACGT genome/gaps and excluded chromosomes remain masked. Explicit adaptation."
+    },
+    {
+      "index": 76,
+      "modality": "RNA",
+      "accession": "GSM6542467",
+      "description": "4SU_6min_nascent_polyA_RNA_published_5prime_tag",
+      "source_filename": "GSM6542467_24743_polyA-RNA_-_BY4741_-_YPD_HS_-4-SU-treatment_RS_FilteredBAM_read1.forward.bw",
+      "sha256": "b6b75d085e0fb519775536aa028794c2a8971ef1e67106a78e6b11408cc86c4e",
+      "rc_partner_index": 77,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6542467",
+      "temperature_C": 37,
+      "genotype": "WT_BY4741",
+      "published_alignment_strand": "forward",
+      "sparse_policy": "On 16 verified nuclear contigs, absent BigWig intervals represent zero tag coverage; non-ACGT genome/gaps and excluded chromosomes remain masked. Explicit adaptation."
+    },
+    {
+      "index": 77,
+      "modality": "RNA",
+      "accession": "GSM6542467",
+      "description": "4SU_6min_nascent_polyA_RNA_published_5prime_tag",
+      "source_filename": "GSM6542467_24743_polyA-RNA_-_BY4741_-_YPD_HS_-4-SU-treatment_RS_FilteredBAM_read1.reverse.bw",
+      "sha256": "d7b891e3b14ad365c091b0bf85b17bda9683892129775de50813443522d868ba",
+      "rc_partner_index": 76,
+      "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6542467",
+      "temperature_C": 37,
+      "genotype": "WT_BY4741",
+      "published_alignment_strand": "reverse",
+      "sparse_policy": "On 16 verified nuclear contigs, absent BigWig intervals represent zero tag coverage; non-ACGT genome/gaps and excluded chromosomes remain masked. Explicit adaptation."
+    }
+  ],
+  "rna_limitations": [
+    "2 conditions not 4 biological replicates",
+    "read1 filename/read2 metadata conflict not fully reconstructed",
+    "already scaled published tracks; do not scale again or abs sign",
+    "NO claim of original Shorkie full RNA training corpus",
+    "RNA arm must be independently named from 74 ChIP arm",
+    "full numerical QC covers nuclear contigs only; exclude chrM and2-micron"
+  ]
+}

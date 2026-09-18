@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shorkie-torch-reproduction"
-version = "0.1.0rc1"
+version = "0.2.0rc1"
 description = "Unofficial, source-audited PyTorch reproduction of Shorkie-LM"
 readme = "README.md"
 requires-python = ">=3.10,<3.14"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
-authors = [{name = "Ziyan Zhuang", email = "ziyan@tju.edu.cn"}]
+authors = [{name = "Ziyan Zhuang"}]
 keywords = ["genomics", "dna-language-model", "pytorch", "shorkie", "yeast"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -30,6 +30,7 @@ Issues = "https://github.com/ZiyanZhuang/shorkie-pytorch/issues"
 Weights = "https://huggingface.co/ZiyanZhuang/shorkie-lm-165-method-rebuild-v1.1"
 
 [project.optional-dependencies]
+supervised = ["scipy>=1.11", "h5py>=3.10"]
 tracking = ["swanlab>=0.6"]
 parity = ["h5py>=3.10", "tensorflow-cpu==2.15.*"]
 test = ["pytest>=8", "build>=1.2"]

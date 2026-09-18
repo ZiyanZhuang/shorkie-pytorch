@@ -24,7 +24,7 @@ def _sha256(path: Path) -> str:
 
 def _read_config(path: Path) -> dict[str, Any]:
     config = json.loads(path.read_text(encoding="utf-8"))
-    if config.get("format_version") != 1 or config.get("model_type") != "shorkie_lm":
+    if config.get("format_version") != 1 or config.get("model_type") not in {"shorkie_lm", "shorkie_coverage"}:
         raise ValueError("unsupported Shorkie-LM release format")
     architecture = config.get("architecture")
     if not isinstance(architecture, dict):
@@ -33,6 +33,9 @@ def _read_config(path: Path) -> dict[str, Any]:
     unknown = sorted(set(architecture) - known)
     if unknown:
         raise ValueError(f"unknown architecture fields: {unknown}")
+    if config['model_type'] == 'shorkie_coverage':
+        if architecture.get('output_activation') != 'softplus' or architecture.get('output_channels') != 78:
+            raise ValueError('unsupported public coverage architecture')
     return config
 
 
@@ -63,6 +66,8 @@ def load_pretrained(
     cfg = ShorkieConfig(**release["architecture"])
     model = ShorkieLM(cfg)
     state = load_file(str(state_path), device=str(device))
+    if not all(torch.isfinite(tensor).all() for tensor in state.values()):
+        raise ValueError('nonfinite model state')
     incompatible = model.load_state_dict(state, strict=True)
     if incompatible.missing_keys or incompatible.unexpected_keys:
         raise RuntimeError(f"strict load failed: {incompatible}")

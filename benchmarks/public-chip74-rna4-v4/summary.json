@@ -1,0 +1,181 @@
+{
+  "status": "ALL_16_MODELS_SOURCE_PATIENCE_AND_OOF_COMPLETE",
+  "metrics": {
+    "pretrained": {
+      "ChIP": {
+        "Pearson": {
+          "mean": 0.22326324130366837,
+          "median": 0.20050231485283848,
+          "n_tracks": 74
+        },
+        "Spearman": {
+          "mean": 0.19506536208874922,
+          "median": 0.1737267728926778,
+          "n_tracks": 74
+        },
+        "R2": {
+          "mean": 0.0723871608446783,
+          "median": 0.03915980783673417,
+          "n_tracks": 74
+        }
+      },
+      "nascent_RNA_5prime_tag": {
+        "Pearson": {
+          "mean": 0.6335751746818751,
+          "median": 0.6462845926764041,
+          "n_tracks": 4
+        },
+        "Spearman": {
+          "mean": 0.7935571620227917,
+          "median": 0.7935553186799522,
+          "n_tracks": 4
+        },
+        "R2": {
+          "mean": 0.4013191559415879,
+          "median": 0.4118958620342984,
+          "n_tracks": 4
+        }
+      }
+    },
+    "scratch": {
+      "ChIP": {
+        "Pearson": {
+          "mean": 0.20346886207981743,
+          "median": 0.1806612507270131,
+          "n_tracks": 74
+        },
+        "Spearman": {
+          "mean": 0.1782653326160315,
+          "median": 0.1579749112697407,
+          "n_tracks": 74
+        },
+        "R2": {
+          "mean": 0.05808956112598952,
+          "median": 0.03231091888662607,
+          "n_tracks": 74
+        }
+      },
+      "nascent_RNA_5prime_tag": {
+        "Pearson": {
+          "mean": 0.5899798070075484,
+          "median": 0.6123431994967335,
+          "n_tracks": 4
+        },
+        "Spearman": {
+          "mean": 0.7660006222820749,
+          "median": 0.7660807740098234,
+          "n_tracks": 4
+        },
+        "R2": {
+          "mean": 0.34835868706026357,
+          "median": 0.3683456025779524,
+          "n_tracks": 4
+        }
+      }
+    }
+  },
+  "provenance": [
+    {
+      "arm": "pretrained",
+      "fold": 0,
+      "prediction_sha256": "d33540f89f2cb665c10803eb9fcef8798b3088ab94fab35127c7d6ab1ecfc67d",
+      "checkpoint_sha256": "0d4f164834bc91aa96ad2e30c727285cb29a61ad94b85291196e3477b700f634"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 1,
+      "prediction_sha256": "0dcba44f7e66186a549c32711d3be3f3048ed20d6732a28e2050059b7b854928",
+      "checkpoint_sha256": "e7d19489b63947a5d9ab22de6afff6412f8086e0be0a5e67897e2bb11d3f4fd2"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 2,
+      "prediction_sha256": "221c91b79096f0e2e79cd05c4daad5e3a9f863e85a3a15d7a33cac730fd2b6e7",
+      "checkpoint_sha256": "f2900db679bf53835819eb15bd024d6b3043dd8eae4ece950d5f0cc88e0306a1"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 3,
+      "prediction_sha256": "3a4f2fdee6c31714335cad227ca1d35b17fab7ee4bf6f13aa860a6e47a725d20",
+      "checkpoint_sha256": "d080ca438229ac63bc0741dde7a83eaa68d10e83112cb055a1c887799ee613ac"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 4,
+      "prediction_sha256": "bfcc9ab38e3e6707762ff0bc08d6a7610340b1c6faaf40671e382ae7b51ebc4f",
+      "checkpoint_sha256": "2524f12d829df430c5abe1ce3deab46f3399d3bb28354cddd124ffa81c4f242b"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 5,
+      "prediction_sha256": "a2a12464c8da900cb2cc46e5150963790a3b808b8cfb50fd5707e0c34d32c63c",
+      "checkpoint_sha256": "064072bc85eaae4306e6fc76c83c5ee823e0e60177ab0e054fb53ee5c96176df"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 6,
+      "prediction_sha256": "abd122f55ef5c2e3c961b88ae818951d54ba3d099ab51aa611b1bebe2c67df56",
+      "checkpoint_sha256": "a7e3afffaf76db5f27a26b80438b96014b29415465474b9d1dca3074a588e48c"
+    },
+    {
+      "arm": "pretrained",
+      "fold": 7,
+      "prediction_sha256": "7ed3c15afa7c6e24fe6aa699742044fe4f21e283b97cf37e34dfaae495e17ced",
+      "checkpoint_sha256": "06537905463eef5fc82a235b98c9afba1032acc2829355aaebc9c555c69793d6"
+    },
+    {
+      "arm": "scratch",
+      "fold": 0,
+      "prediction_sha256": "566474d4017a81fa0e689e6082bd1bf45ae021187f9efb4237f35f8e370de34d",
+      "checkpoint_sha256": "ce876ca9b73d3d14bab4e7a502a7fd5df7670c604dfe2f2c822da35972457128"
+    },
+    {
+      "arm": "scratch",
+      "fold": 1,
+      "prediction_sha256": "793b9bdf40f883aa58d1e3723f052c5ab8d169dd4128e1d4e639eaa1a0fb624e",
+      "checkpoint_sha256": "9aac8923697c4a5fca11f8c914520dd6216f265b80d22a1884a9363b03722a81"
+    },
+    {
+      "arm": "scratch",
+      "fold": 2,
+      "prediction_sha256": "e862e10cffb8eab6351cbfe38c82e8c4cb417a414a631e9b2d6ee2cf2abd9384",
+      "checkpoint_sha256": "627f70c80e6c5e28c6673db42c10827cdd1d0cc9c4380893fe6ee6c743b20c6b"
+    },
+    {
+      "arm": "scratch",
+      "fold": 3,
+      "prediction_sha256": "59a48f486e3df2b79bf5d592146b0833902ec4fc563143dc1abc0eb0b42e97f0",
+      "checkpoint_sha256": "a89908e6d9eb70819eb1e56c64c33e4c3f196b6c28566b36aa45b2eeaeed7d43"
+    },
+    {
+      "arm": "scratch",
+      "fold": 4,
+      "prediction_sha256": "9f64780197dd8be26e6af9d395b3735cbd8d35399453ef5c81ea43fcda0198fe",
+      "checkpoint_sha256": "c0e49766563b2ada9f5521f26bbc2bbacbd9d02bd663b055f6548534d80e19c7"
+    },
+    {
+      "arm": "scratch",
+      "fold": 5,
+      "prediction_sha256": "df7e688714220b454b4783346212b41c3db1da966b355d73bc789dd312d19a0c",
+      "checkpoint_sha256": "73b6daa4481c3d8346ad1974eb4b10716f2fd4224a7bd7365aeaab54515f6fae"
+    },
+    {
+      "arm": "scratch",
+      "fold": 6,
+      "prediction_sha256": "f4bc6643f5edb9551cf60fc544aa9e13a20141d50873ce22dc4b99c00eb25e85",
+      "checkpoint_sha256": "45688334b4b92777e690d8c6ddf56b39b71adcaabc8e23589a8ca0ebe7203101"
+    },
+    {
+      "arm": "scratch",
+      "fold": 7,
+      "prediction_sha256": "135994c2f395fed76c92893b8a53c69cf347b539ad86c51acb4504edbb7c7d79",
+      "checkpoint_sha256": "f377821dbeb2f32d626a8f6e372a0ab09c03c669db0198a44ac35f3e70bee71c"
+    }
+  ],
+  "limitations": [
+    "public signal and altered genomic split; not original test set",
+    "overlapping same-fold windows repeat bases; intervals are not independent bootstrap units",
+    "74 ChIP and 2 RNA conditions x 2 strands are not independent replicate counts",
+    "source scratch learning rate and input channels differ; pretrained-vs-scratch not a pure single-factor causal estimate"
+  ]
+}

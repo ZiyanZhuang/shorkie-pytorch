@@ -9,6 +9,10 @@
 [官方仓库](https://github.com/calico/shorkie-paper)和
 [官方文档](https://khchao.com/shorkie/)。
 
+## 新增公开监督适配记录
+
+本次增加78轨道、八折、16模型的监督适配结果，详见[中文报告](docs/public-supervised-report.zh-CN.md)和[方法说明](docs/public-supervised.md)。旧LM指标仅适用于旧检查点；当前监督权重仍待导出验收。
+
 ## 核心复现指标
 
 ![冻结 R64 验证合同上的总体加权困惑度](benchmarks/v0.1.0-rc1/overall_ppl.png)

@@ -9,10 +9,10 @@ import re
 from pathlib import Path
 
 
-TEXT_SUFFIXES = {".cff", ".cfg", ".in", ".ini", ".json", ".md", ".py", ".ps1", ".sh", ".svg", ".toml", ".tsv", ".txt", ".yaml", ".yml"}
+TEXT_SUFFIXES = {".csv", ".cff", ".cfg", ".in", ".ini", ".json", ".md", ".py", ".ps1", ".sh", ".svg", ".toml", ".tsv", ".txt", ".yaml", ".yml"}
 FORBIDDEN_SUFFIXES = {".ckpt", ".h5", ".key", ".npz", ".pem", ".pt", ".pth", ".safetensors", ".swanlab", ".tfr"}
 EXCLUDED_PARTS = {".git", ".pytest_cache", "__pycache__", "audit", "build", "dist", "logs", "outputs", "reports"}
-ALLOWED_BINARY_PATHS = {"benchmarks/v0.1.0-rc1/overall_ppl.png"}
+ALLOWED_BINARY_PATHS = {"benchmarks/public-chip74-rna4-v4/modality-comparison.png", "benchmarks/public-chip74-rna4-v4/per-track-gains.png", "benchmarks/public-chip74-rna4-v4/paper-reference.png","benchmarks/v0.1.0-rc1/overall_ppl.png"}
 SPECIAL_TEXT_NAMES = {"LICENSE", "NOTICE", "PKG-INFO", ".gitignore", ".gitattributes"}
 _PRIVATE_MARKERS = (
     "86" + "135",

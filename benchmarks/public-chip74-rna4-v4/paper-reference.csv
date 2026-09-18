@@ -1,0 +1,15 @@
+modality,group,scratch,pretrained,source
+ChIP,"Paper
+ChIP-exo",0.315,0.356,Figure 3C archived panel values
+ChIP,"Paper
+ChIP-MNase",0.424,0.446,Figure 3C archived panel values
+ChIP,"Ours
+Public ChIP (74)",0.1806612507270131,0.20050231485283848,pooled OOF median
+RNA,"Paper figure
+Induction RNA",0.703,0.776,Figure 3C archived panel values
+RNA,"Paper text
+Induction RNA",0.67,0.78,manuscript text; conflicts with panel baseline
+RNA,"Paper figure
+1000-strain RNA",0.579,0.629,Figure 3C archived panel values
+RNA,"Ours
+Nascent RNA (4)",0.6123431994967335,0.6462845926764041,pooled OOF median

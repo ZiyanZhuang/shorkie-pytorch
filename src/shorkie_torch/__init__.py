@@ -14,7 +14,7 @@ from .model import (
     weighted_mlm_loss,
 )
 
-__version__ = "0.1.0rc1"
+__version__ = "0.2.0rc1"
 
 __all__ = [
     "ShorkieConfig",

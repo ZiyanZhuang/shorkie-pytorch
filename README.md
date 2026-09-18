@@ -20,6 +20,37 @@ official TensorFlow language model under the same fixed R64 evaluation plan.
 > please cite the [original paper](https://doi.org/10.1101/2025.09.19.677475)
 > and visit the [official repository](https://github.com/calico/shorkie-paper).
 
+## Public supervised reproduction update (September 2026)
+
+This update adds an **independent public-data adaptation**, not the original
+5,215-track Shorkie release: 74 ChIP tracks and four nascent RNA tracks,
+eight genomic folds, pretrained fine-tuning versus scratch. All 16 models met
+the configured validation patience rule. The normalized-lograte-v4 objective
+is an explicitly documented change from the upstream epsilon implementation.
+
+| Pooled OOF track mean | Scratch | Pretrained |
+|---|---:|---:|
+| ChIP Pearson | 0.203469 | 0.223263 |
+| ChIP R² | 0.058090 | 0.072387 |
+| Nascent RNA Pearson | 0.589980 | 0.633575 |
+| Nascent RNA R² | 0.348359 | 0.401319 |
+
+![Public-data supervised evaluation](benchmarks/public-chip74-rna4-v4/modality-comparison.png)
+
+[Methods and limitations](docs/public-supervised.md) ·
+[Detailed Chinese report](docs/public-supervised-report.zh-CN.md) ·
+[Per-track results](benchmarks/public-chip74-rna4-v4/per-track-oof.csv) ·
+[Training examples](examples/supervised/README.md)
+
+**Do not transfer the older LM PPL claim below to this campaign.** Its LM
+initialization is a different checkpoint. RNA comprises two conditions × two
+strands, not four independent biological replicates. Input channels and learning
+rates differ between arms, so this is not a single-factor pretraining ablation.
+The 16 supervised bundles passed checksum verification, strict public-loader
+loading and finite-state checks; one model per arm also passed synthetic
+16 kb inference. These operational checks do not add biological validation.
+See the [supervised model card](docs/supervised-model-card.md) for release usage.
+
 ## What you get
 
 - A readable PyTorch implementation of the convolutional encoder, relative-position
@@ -168,7 +199,6 @@ in [CITATION.cff](CITATION.cff).
 
 **Ziyan Zhuang**  
 Tianjin University · Shenzhen Loop Area Institute  
-[ziyan@tju.edu.cn](mailto:ziyan@tju.edu.cn) · [GitHub](https://github.com/ZiyanZhuang) · [Hugging Face](https://huggingface.co/ZiyanZhuang)
 
 Apache-2.0 licensed. Contributions and reproducibility reports are welcome.
 
