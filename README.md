@@ -51,6 +51,13 @@ loading and finite-state checks; one model per arm also passed synthetic
 16 kb inference. These operational checks do not add biological validation.
 See the [supervised model card](docs/supervised-model-card.md) for release usage.
 
+Download the supervised bundles from
+[Hugging Face](https://huggingface.co/ZiyanZhuang/shorkie-public-chip74-rna4-v4)
+or [GitHub Release v0.2.0-rc1](https://github.com/ZiyanZhuang/shorkie-pytorch/releases/tag/v0.2.0-rc1).
+The Hugging Face publication at revision `149cc21fe9e3a4ab38f7f4692146a0223e34a367`
+was checked anonymously: all 54 released files matched local content hashes,
+including SHA-256 checks for all 16 weight files.
+
 ## What you get
 
 - A readable PyTorch implementation of the convolutional encoder, relative-position

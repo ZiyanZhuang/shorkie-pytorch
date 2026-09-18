@@ -12,6 +12,9 @@ tags:
 
 # Shorkie public ChIP74 / RNA4 adaptation, normalized-lograte-v4
 
+Weights: [Hugging Face](https://huggingface.co/ZiyanZhuang/shorkie-public-chip74-rna4-v4)
+and [GitHub Release](https://github.com/ZiyanZhuang/shorkie-pytorch/releases/tag/v0.2.0-rc1).
+
 Unofficial public-data adaptation of [Shorkie](https://elifesciences.org/reviewed-preprints/112217).
 The original architecture and scientific method belong to the original authors;
 this release documents a PyTorch reproduction and explicit public-data changes.
